@@ -2,7 +2,7 @@
 
 $pagina = "home";
 $titulo = "Página Inicial";
-$descricao = "Página Blog Danilo Souza";
+$descricao = "Página Danilo Souza Souza";
 
 $c = $s = $p = $h = "";
 if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
@@ -33,22 +33,22 @@ if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blog Danilo - <?= $titulo; ?></title>
+    <title>Danilo Souza - <?= $titulo; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="images/icone.png">
-    <link rel="icon" href="images/icone-32x32.png" sizes="32x32">
-    <link rel="icon" href="images/icone-72x72.png" sizes="72x72">
-    <link rel="icon" href="images/icone-96x96.png" sizes="96x96">
-    <link rel="icon" href="images/icone-114x114.png" sizes="114x114">
-    <link rel="icon" href="images/icone-128x128.png" sizes="128x128">
+    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/logo.png" sizes="32x32">
+    <link rel="icon" href="images/logo.png" sizes="72x72">
+    <link rel="icon" href="images/logo.png" sizes="96x96">
+    <link rel="icon" href="images/logo.png" sizes="114x114">
+    <link rel="icon" href="images/logo.png" sizes="128x128">
 
-    <link rel="apple-touch-icon" href="images/icone.png">
-    <link rel="apple-touch-icon" href="images/icone-114x114.png" sizes="114x114">
-    <link rel="apple-touch-icon" href="images/icone-128x128.png" sizes="128x128">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="images/logo.png" sizes="128x128">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
@@ -80,7 +80,7 @@ if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
     <div class="clearfix"></div>
 
     <a class="navbar-brand" href="home">
-        <img src="images/logo.png" alt="Blog Danilo" title="Blog Danilo" srcset="images/logo-menor.png 0.5x">
+       <h2>Danilo Souza</h2>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -146,8 +146,8 @@ if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4">
-                <a href="home" title="Blog Danilo">
-                    <img src="images/logob.png" alt="Blog Danilo" title="Blog Danilo">
+                <a href="home" title="Danilo Souza">
+                    <h1>Danilo Araújo de Souza</h1>
                 </a>
             </div>
             <div class="col-12 col-md-8">

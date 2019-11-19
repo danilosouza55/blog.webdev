@@ -6,41 +6,23 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/banner-1.png" alt="Aplicativos" title="Aplicativos" class="float-right">
+            <img src="images/1.jpg" alt="Aplicativos" title="Aplicativos" class="float-right">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Desenvolvimento de Aplicativos</h5>
-                <p>Aplicativos para os modernos sistemas Windows Phone e Android 2.3</p>
-                <p>
-                    <a href="" title="Aplicativos" class="btn btn-info">
-                        Mais informações
-                    </a>
-                </p>
+                <h5>Desenvolvimento Com Rapidez</h5>
             </div>
         </div>
 
         <div class="carousel-item">
-            <img src="images/banner-2.png" alt="Aplicativos" title="Aplicativos" class="float-right">
+            <img src="images/2.png" alt="Aplicativos" title="Aplicativos" class="float-right">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Hospedagem em Nuvem</h5>
-                <p>Hospede seus sistemas, sites e aplicativos nos melhoes esquemas de Cloud mundial</p>
-                <p>
-                    <a href="" title="Aplicativos" class="btn btn-info">
-                        Mais informações
-                    </a>
-                </p>
             </div>
         </div>
 
         <div class="carousel-item">
-            <img src="images/banner-3.png" alt="Aplicativos" title="Aplicativos" class="float-right">
+            <img src="images/3.jpg" alt="Aplicativos" title="Aplicativos" class="float-right">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Desenvolvimento de Sites</h5>
-                <p>Se sua empresa ainda não possui um site ela não irá sobreviver! Faça seu site conosco!</p>
-                <p>
-                    <a href="" title="Aplicativos" class="btn btn-info">
-                        Mais informações
-                    </a>
-                </p>
             </div>
         </div>
     </div>
