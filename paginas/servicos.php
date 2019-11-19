@@ -3,36 +3,21 @@
 	<h1>Nossos <strong>Serviços</strong></h1>
 	<hr>
 	<p class="text-center">
-		Conheça os serviços da Mayconsoft:
+		Conheça os serviços:
 	</p>
 
 		<div class="row">
 			<div class="col-12 col-md-4 text-center">
 				<i class="fas fa-desktop fa-5x"></i>
 				<h2>Desenvolvimento de Sistemas e Sites</h2>
-				<p>
-					<a href="desenvolvimento-sistemas" class="btn btn-info">
-						Mais informações
-					</a>
-				</p>
 			</div>
 			<div class="col-12 col-md-4 text-center">
 				<i class="fas fa-mobile-alt fa-5x"></i>
 				<h2>Desenvolvimento de Aplicativos</h2>
-				<p>
-					<a href="desenvolvimento-apps" class="btn btn-info">
-						Mais informações
-					</a>
-				</p>
 			</div>
 			<div class="col-12 col-md-4 text-center">
 				<i class="fas fa-server fa-5x"></i>
 				<h2>Hospedagem de Sites</h2>
-				<p>
-					<a href="hospedagem" class="btn btn-info">
-						Mais informações
-					</a>
-				</p>
 			</div>
 		</div>
 	</div>
