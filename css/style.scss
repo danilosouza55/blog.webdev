@@ -1,0 +1,315 @@
+$claro: #59A5F2;
+$escuro: #3069D8;
+$azul: #0C2050;
+$cinza: #333;
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+}
+
+@mixin acessivel() {
+	
+	font-size: 0.8em;
+	background: #000;
+	padding: 10px 0 0;
+	text-align: center;
+	position: fixed;
+	z-index: 9999;
+	top: 150px;
+	left: 0px;
+	border-radius: 0 15px 15px 0;
+	padding: 20px;
+}
+
+.btn-acessivel {
+	@include acessivel;
+	width: 150px;
+	a {
+		color: #fff;
+	}
+}
+
+.menu-acessivel {
+	@include acessivel;
+	width: 300px;
+	display: none;
+	p, a {
+		color: #fff;
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+.body {
+	background: #000 !important;
+	h1, h2, h3, p, a {
+		color: #FF0 !important;
+	}
+	h5, i, .fas {
+		color: #fff !important;
+	}
+	div, section, footer {
+		background: #000 !important;
+	}
+	.btn, .btn-success, .btn-info {
+		background: #000 !important;
+		color: #fff !important;
+	}
+}
+
+body {
+	font-family: Lato, Tahoma, Verdana;
+	background: #f1f1f1;
+	padding-top: 80px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: $azul;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	color: $azul;
+	font-size: 1.2em;
+}
+
+
+.space {
+	padding: 100px 0;
+}
+
+.shadow {
+	box-shadow: 0px 0px 3px #ccc;
+	background: #fff;
+	margin: 30px 0;
+	div {
+		padding: 0;
+		margin: 0;
+	}
+	.content {
+		width: 100%;
+		height: 100%;
+		padding: 20px;
+		float: left;
+		display: table;
+		p {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+}
+
+.content {
+	padding: 3rem;
+}
+
+#banner {
+	.carousel-indicators li {
+		background-color: $azul;
+		height: 5px;
+	}
+	.carousel-caption {
+		text-align: left;
+		float: left;
+		padding: 200px 0;
+		width: 40%;
+		h5 {
+			color: $azul;
+			font-size: 2em;
+			text-transform: uppercase;
+		}
+		p {
+			color: #333;
+			font-size: 1.5em;
+		}
+	}
+}
+
+#news {
+	.data {
+		font-size: 0.8em;
+		padding: 5px 10px;
+		background: $escuro;
+		color: #fff;
+		border-radius: 100px;
+	}
+	h2 {
+		text-transform: uppercase;
+		font-size: 1.4em;
+		height: 80px;
+		margin: 15px 0;
+	}
+}
+
+.card {
+	p {
+		font-size: 1em;
+	}
+}
+
+.btn {
+	border-radius: 100px;
+}
+
+hr {
+	border: 5px solid $azul;
+	width: 100px;
+	margin: 20px auto;
+}
+
+section {
+	padding: 100px 0;
+	&#servicos {
+		width: 100%;
+		background: #FFF;
+	}
+	&#newsletter {
+		background: url(../images/bg-1.jpg) no-repeat fixed $azul;
+		.input-group {
+			width: 70%;
+			margin: 20px auto;
+		}
+		h1, p {
+			color: #fff;
+		}
+		hr {
+			border-color: $escuro;
+		}
+	}
+}
+
+
+.fa-5x {
+	margin: 30px 0;
+}
+
+.loader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(../images/loading.gif) no-repeat center rgba(255,255,255,0.8);
+	z-index: 9999;
+}
+
+.row {
+	&.portfolio {
+		.w-100 {
+			margin-bottom: 50px;
+		}
+	}
+}
+
+.navbar {
+	background: #fff;
+	box-shadow: 1px 1px 20px #ddd;
+	.navbar-toggler {
+		border: 1px solid #333;
+	}
+	.nav-link {
+		text-transform: uppercase;
+		color: $cinza;
+		transition: 0.5s;
+		margin-left: 10px;
+		font-weight: bold;
+		&:hover {
+			color: $escuro;
+		}
+	}
+	.dropdown-item {
+		text-transform: uppercase;
+		color: $cinza;
+		transition: 0.5s;
+		&:hover {
+			color: $escuro;
+		}
+	}
+}
+
+footer {
+	background: $azul;
+	width: 100%;
+	padding: 50px 0 0 5px;
+	p {
+		color: #fff;
+	}
+	hr {
+		border: 0.5px solid $escuro;
+		width: 100%;
+	}
+	.bottom {
+		.col-md-6:last-child {
+			text-align: right;
+			a {
+				display: inline;
+			}
+		}
+	}
+	.row:first-child {
+		a { 
+			text-align: right;
+			margin-left: 20px;
+			padding-top: 40px;
+			text-decoration: none;
+			transition: 0.5s;
+			line-height: 70px;
+		}
+		p {
+			text-align: right;
+		}
+	}
+}
+
+.btn {
+	& .btn-info {
+		border: 1px solid $azul;
+		background: transparent;
+	}
+}
+
+#accordion {
+	.card {
+		margin-bottom: 10px;
+		.card-header {
+			background: linear-gradient(to bottom, #05A6F0, #0480BB);
+			button { color: #fff; }
+		}
+	}
+}
+
+@media ( max-width: 420px ) {
+	.navbar-brand img {
+		width: 200px;
+	}
+	.btn-acessivel, .menu-acessivel {
+		display: none;
+	}
+	#accordion {
+		.card {
+			margin-bottom: 30px;
+		}
+	}
+	.card {
+		margin: 10px 0;
+	}
+	footer {
+		.row {
+			padding-bottom: 20px;
+			.col-12 p, .col-12 {
+				text-align: center;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+}
